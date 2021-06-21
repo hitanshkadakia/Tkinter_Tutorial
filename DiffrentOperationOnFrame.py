@@ -1,0 +1,13 @@
+from tkinter import *
+root=Tk()
+root.title("@happy_coding01")
+root.geometry("600x600")
+frame1=Frame(root,bg="blue",height=100)
+frame1.pack(side=TOP,fill=X)
+frame2=Frame(bg="red",height=400,width="200")
+frame2.pack(side=LEFT,fill=Y)
+frame3=Frame(bg="green",height=600,width="200")
+frame3.pack(side=LEFT,fill=Y)
+frame4=Frame(bg="black",height=400,width="200")
+frame4.pack(side=RIGHT,fill=Y)
+root.mainloop()
